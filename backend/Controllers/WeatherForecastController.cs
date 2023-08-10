@@ -1,3 +1,6 @@
+using backend.connection;
+using backend.entidades;
+using backend.servicios;
 using Microsoft.AspNetCore.Mvc;
 
 namespace backend.Controllers;
@@ -16,8 +19,9 @@ public class WeatherForecastController : ControllerBase
     public WeatherForecastController(ILogger<WeatherForecastController> logger)
     {
         _logger = logger;
+        BDManager.GetInstance.ConnectionString = "workstation id=upc-database.mssql.somee.com;packet size=4096;user id=escalante_77_SQLLogin_4;pwd=l6yh7t1jfv;data source=upc-database.mssql.somee.com;persist security info=False;initial catalog=upc-database";
     }
-
+/*
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
@@ -28,5 +32,19 @@ public class WeatherForecastController : ControllerBase
             Summary = Summaries[Random.Shared.Next(Summaries.Length)]
         })
         .ToArray();
+    }
+    */
+    [HttpGet(Name = "GetCategoria")]
+    public IActionResult GetCategoria()
+    {
+        try
+        {
+            var result = CategoriaProductoServicios.ObtenerTodo<CategoriaProducto>();
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
     }
 }
