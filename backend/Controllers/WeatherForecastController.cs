@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace backend.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
@@ -21,7 +21,7 @@ public class WeatherForecastController : ControllerBase
         _logger = logger;
         BDManager.GetInstance.ConnectionString = "workstation id=upc-database.mssql.somee.com;packet size=4096;user id=escalante_77_SQLLogin_4;pwd=l6yh7t1jfv;data source=upc-database.mssql.somee.com;persist security info=False;initial catalog=upc-database";
     }
-/*
+
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
@@ -33,18 +33,5 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
-    */
-    [HttpGet(Name = "GetCategoria")]
-    public IActionResult GetCategoria()
-    {
-        try
-        {
-            var result = CategoriaProductoServicios.ObtenerTodo<CategoriaProducto>();
-            return Ok(result);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, ex.Message);
-        }
-    }
+    
 }

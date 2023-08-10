@@ -26,7 +26,7 @@ namespace backend.connection
             }
         }
 
-        public string ConnectionString { get; set; }
+        public string? ConnectionString { get; set; }
 
         public IEnumerable<T> GetData<T>(string sql){
             using var connection =  new SqlConnection(ConnectionString);

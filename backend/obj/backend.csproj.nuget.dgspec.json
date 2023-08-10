@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj": {}
+    "C:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj": {}
   },
   "projects": {
-    "c:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj": {
+    "C:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "c:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj",
+        "projectPath": "C:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\Eescalante\\.nuget\\packages\\",
-        "outputPath": "c:\\projects\\upc\\pruebas-software-upc\\backend\\obj\\",
+        "outputPath": "C:\\projects\\upc\\pruebas-software-upc\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
