@@ -1,8 +1,11 @@
-public class Common
+namespace backend.entidades
 {
-    public string UsuarioRegistro { get; set; }
-    
-    public DateTime FechaRegistro { get; set; }
+    public class Common
+    {
+        public string UsuarioRegistro { get; set; }
 
-    public int EstadoRegistro { get; set; }
+        public DateTime FechaRegistro { get; set; }
+
+        public int EstadoRegistro { get; set; }
+    }
 }
