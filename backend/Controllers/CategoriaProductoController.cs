@@ -19,12 +19,44 @@ public class CategoriaProductoController : ControllerBase
         BDManager.GetInstance.ConnectionString = connectionString;
     }
 
-    [HttpGet(Name = "GetCategoria")]
-    public IActionResult GetCategoria()
+    [HttpGet]
+    [Route("GetAllCategoriaProducto")]
+    public IActionResult GetAllCategoriaProducto()
     {
         try
         {
             var result = CategoriaProductoServicios.ObtenerTodo<CategoriaProducto>();
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
+    }
+
+
+    [HttpGet]
+    [Route("GetCategoriaProductoById")]
+    public IActionResult GetCategoriaProductoById([FromQuery] int id)
+    {
+        try
+        {
+            var result = CategoriaProductoServicios.ObtenerById<CategoriaProducto>(id);
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
+    }
+
+    [HttpPost]
+    [Route("AddCategoriaProducto")]
+    public IActionResult AddCategoriaProducto(CategoriaProducto categoriaProducto)
+    {
+        try
+        {
+            var result = CategoriaProductoServicios.InsertCategoriaProducto(categoriaProducto);
             return Ok(result);
         }
         catch (Exception ex)
