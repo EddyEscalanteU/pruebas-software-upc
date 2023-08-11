@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/pruebas-software-upc/backend/backend.csproj": {}
+    "c:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj": {}
   },
   "projects": {
-    "/workspaces/pruebas-software-upc/backend/backend.csproj": {
+    "c:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/pruebas-software-upc/backend/backend.csproj",
+        "projectUniqueName": "c:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "/workspaces/pruebas-software-upc/backend/backend.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/pruebas-software-upc/backend/obj/",
+        "projectPath": "c:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\Eescalante\\.nuget\\packages\\",
+        "outputPath": "c:\\projects\\upc\\pruebas-software-upc\\backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Eescalante\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/dotnet/7.0.305/sdk/7.0.305/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.305/sdk/7.0.305/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
