@@ -1,5 +1,7 @@
 {
   "name": "frontend-upc",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
