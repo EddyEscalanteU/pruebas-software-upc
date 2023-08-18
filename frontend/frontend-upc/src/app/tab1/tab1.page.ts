@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Usuarios } from '../entidades/usuarios';
+import { UsuariosService } from '../servicios-backend/usuarios/usuarios.service';
 
 @Component({
   selector: 'app-tab1',
@@ -14,7 +15,7 @@ export class Tab1Page {
 
   public listaUsuarios: Usuarios[] = []
 
-  constructor() {
+  constructor(private usuariosService: UsuariosService) {
 
     let usuario: Usuarios = new Usuarios();
     usuario.nombreCompleto = "Eddy Escalante"
@@ -23,6 +24,8 @@ export class Tab1Page {
 
     this.listaUsuarios.push(usuario)
     this.listaUsuarios.push(usuario)
+
+    'usuariosService.GetUsuarios()
 
   }
 

@@ -6,9 +6,10 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class UsuariosService {
-  PATH_BACKEND = "" + ""
 
-  URL_GET = this.PATH_BACKEND + "/api/Usuarios";
+  PATH_BACKEND = "http://localhost:" + "5159"
+
+  URL_GET = this.PATH_BACKEND + "/api/Usuarios/GetAllUsuarios";
 
   constructor(private httpClient: HttpClient) {
   }
