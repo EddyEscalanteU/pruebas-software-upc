@@ -118,3 +118,5 @@ C:\projects\upc\pruebas-software-upc\backend\obj\Debug\net7.0\refint\backend.dll
 C:\projects\upc\pruebas-software-upc\backend\obj\Debug\net7.0\backend.pdb
 C:\projects\upc\pruebas-software-upc\backend\obj\Debug\net7.0\backend.genruntimeconfig.cache
 C:\projects\upc\pruebas-software-upc\backend\obj\Debug\net7.0\ref\backend.dll
+C:\projects\upc\pruebas-software-upc\backend\obj\Debug\net7.0\backend.xml
+C:\projects\upc\pruebas-software-upc\backend\bin\Debug\net7.0\backend.xml

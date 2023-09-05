@@ -9,6 +9,7 @@
       "backend/1.0.0": {
         "dependencies": {
           "Dapper": "2.0.143",
+          "EWSoftware.SHFB": "2023.7.8",
           "Microsoft.AspNetCore.OpenApi": "7.0.5",
           "Swashbuckle.AspNetCore": "6.4.0",
           "System.Data.SqlClient": "4.8.5"
@@ -25,6 +26,7 @@
           }
         }
       },
+      "EWSoftware.SHFB/2023.7.8": {},
       "Microsoft.AspNetCore.OpenApi/7.0.5": {
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
@@ -172,6 +174,13 @@
       "sha512": "sha512-Vh0U+Fins3IpS7APUlrzga3+1mswWngB5fZ0xj4w+FQR5JhJzA5uHV5rSepkahvmshNZUA0YcHtae9vFQpiVTw==",
       "path": "dapper/2.0.143",
       "hashPath": "dapper.2.0.143.nupkg.sha512"
+    },
+    "EWSoftware.SHFB/2023.7.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RdXxhgN77Etft9f2Eql9+sosczkqkFcJK9gGHqxOGPrreADHrHaM/OcIsXQQhxL4YDA8P85H+VjN7An06kMyAw==",
+      "path": "ewsoftware.shfb/2023.7.8",
+      "hashPath": "ewsoftware.shfb.2023.7.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/7.0.5": {
       "type": "package",

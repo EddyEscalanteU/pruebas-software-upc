@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "byie3VRZelRCfBbZJXEOMZJV1AcWCIPYc3h6Nx3IMCVOBDGyjerNwpG+OPmovG+K50xZgLxdMvGryFLJ5Oh8YQ==",
+  "dgSpecHash": "0FHDiZ9vW/MI71js0Wg4AfNWE3Sc2VZhh1++zPMoJKAlXpd4KbTjmQJhWi/SYRupqkxOQO+NThSyBolKc6BD5A==",
   "success": true,
   "projectFilePath": "C:\\projects\\upc\\pruebas-software-upc\\backend\\backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eddye\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
+    "C:\\Users\\eddye\\.nuget\\packages\\ewsoftware.shfb\\2023.7.8\\ewsoftware.shfb.2023.7.8.nupkg.sha512",
     "C:\\Users\\eddye\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\eddye\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\eddye\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
